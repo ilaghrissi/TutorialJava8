@@ -75,4 +75,17 @@ public class ObjectTests {
 	assertNull(o.getUserByName(users, "Julian"));
 	
 	}
+	
+	@Test
+	public void testGetUserHaveMaxAge() {
+		List<User> users = Arrays.asList(
+				new User(1L, "Cairo", "Fulton", "per@nullaDonecnon.org", 27),
+				new User(2L, "Reuben", "Burton", "tempor@nisl.org", 30),
+				new User(3L, "Marvin", "Hess", "Sed@Nunc.net", 22));
+		
+		ObjectExamples o = new ObjectExamples();
+		User expectedUser = new User(2L, "Reuben", "Burton", "tempor@nisl.org", 30);
+		
+		assertEquals(expectedUser, o.getUserHaveMaxAge(users));
+	}
 }

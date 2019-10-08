@@ -2,6 +2,7 @@ package com.tutorial.training;
 
 import java.util.Comparator;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.stream.Collectors;
 
 import com.tutorial.training.dto.User;
@@ -51,6 +52,14 @@ public class ObjectExamples {
 				.orElse(null);
 		
 		return user;
+	}
+	
+	public User getUserHaveMaxAge(List<User> users) {
+		User result = users.stream()
+				.max(Comparator.comparing(User::getAge))
+				.orElseThrow(NoSuchElementException::new);
+		
+		return result;
 	}
 	
 }
