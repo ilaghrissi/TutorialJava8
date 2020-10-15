@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.tutorial.training</groupId>
 	<artifactId>training</artifactId>
-	<version>3.0.0</version>
+	<version>3.0.1-SNAPSHOT</version>
 	<name>TutorialJava8</name>
 	<description>Tutorial for java 8</description>
 	<properties>
@@ -21,7 +21,7 @@
 	   <connection>scm:git:${git-url}</connection>
 	   <url>${git-url}</url>
 	   <developerConnection>scm:git:${git-url}</developerConnection>
-	  <tag>v3.0.0</tag>
+	  <tag>v2.0.0</tag>
   </scm>
 
 	<dependencies>
