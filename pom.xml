@@ -55,12 +55,12 @@
 			</plugin>
 		</plugins>
 	</build>
-	 <repositories>
+	<!-- <repositories>
 		<repository>
 		      <id>Appid</id>
 		      <name>AppName</name>
 		      <url>D:/</url>
 		</repository>
-	  </repositories>
+	  </repositories>-->
 
 </project>
