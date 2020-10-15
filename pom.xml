@@ -14,6 +14,7 @@
 	<name>TutorialJava8</name>
 	<description>Tutorial for java 8</description>
 	<properties>
+		<java.version>1.8</java.version>
 		<git-url>https://github.com/ilaghrissi/TutorialJava8.git</git-url>
 	</properties>	
 	
@@ -22,10 +23,6 @@
 	   <url>${git-url}</url>
 	   <developerConnection>scm:git:${git-url}</developerConnection>
 	</scm>
-
-	<properties>
-		<java.version>1.8</java.version>
-	</properties>
 
 	<dependencies>
 		<dependency>
