@@ -13,6 +13,15 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<name>TutorialJava8</name>
 	<description>Tutorial for java 8</description>
+	<properties>
+		<git-url>https://github.com/ilaghrissi/TutorialJava8.git</git-url>
+	</properties>	
+	
+	<scm>
+	   <connection>scm:git:${git-url}</connection>
+	   <url>${git-url}</url>
+	   <developerConnection>scm:git:${git-url}</developerConnection>
+	</scm>
 
 	<properties>
 		<java.version>1.8</java.version>
